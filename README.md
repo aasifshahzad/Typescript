@@ -1,2 +1,2 @@
 # Typescript
-A Typescript self practice repository for practice purpose.
+A Typescript repository for self practice and learning purpose.
