@@ -1,0 +1,12 @@
+"use strict";
+let firstName = "Muhammad Asif";
+let lastName = "Shahzad";
+console.log(firstName);
+console.log(lastName);
+console.log("Hellow World");
+let thirdName = "Ali";
+console.log(firstName);
+let secondName = "Ahmed";
+console.log(secondName);
+let message = 'Hello World it  my first code for typescript';
+console.log(message);
