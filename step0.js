@@ -6,7 +6,7 @@ console.log(lastName);
 console.log("Hellow World");
 let thirdName = "Ali";
 console.log(firstName);
-let secondName = "Ahmed";
+let secondName = "NAsir";
 console.log(secondName);
 let message = 'Hello World it  my first code for typescript';
 console.log(message);
