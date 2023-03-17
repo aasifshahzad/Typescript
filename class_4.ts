@@ -47,9 +47,9 @@
 //         student.pop()
 
 // let student = ["asif","kashif","nasif"]
-let fruits = ["apple","banana", "orange", "grapes", "strawberry"]
+// let fruits = ["apple","banana", "orange", "grapes", "strawberry"]
 
-console.log(fruits);
+// console.log(fruits);
 // console.log(fruits[0]);
 // console.log(fruits[3]);
 
@@ -65,5 +65,16 @@ console.log(fruits);
 // fruits.splice(2, 1, "Lemon", "Tomatto"); // adds elements to an array at 2nd inde // deleted the item at position index 2 elements
 // console.log(fruits);
 
-let citrus = fruits.slice(2); // [Orange,Lemon,Apple,Mango]
-console.log(citrus);
+// let citrus = fruits.slice(2); // [Orange,Lemon,Apple,Mango]
+// console.log(citrus);
+
+var firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
+var lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
+var fullNames = [];
+
+for (var i = 0; i<firstNames.length; i++){
+    for (var j = 0; j<lastNames.length; j++){
+        fullNames.push(firstNames[i]+lastNames[j]);
+    };
+};
+console.log(fullNames);
