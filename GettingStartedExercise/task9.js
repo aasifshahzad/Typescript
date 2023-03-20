@@ -8,22 +8,26 @@ for (let index = 0; index < guestList.length; index++) {
 }
 //Changing Guest List: You just heard that one of your guests can’t make the dinner, so you need to send out a new set of invitations. You’ll have to think of someone else to invite.
 let guestAddition = ["Jamal", "kashif", "Nasir", "wasif"];
-let guestDeletion = ["sadiq", "asif"];
+let guestDeletion = ["sadiq", "asif", "shumail"];
 //console.log(guestList);
 guestList = guestList.concat(guestAddition); // Add the name of the guest to be added
 //console.log(guestList);
-guestList = [...new Set(guestList)]; // remove duplicate strings in an array of string 
+guestList = Array.from(new Set(guestList)); // remove duplicate strings in an array of string 
 console.log(`Guest list after adding new guests and removing duplicates ${guestList}`);
 //console.log(guestList.find((element) => element === "asif")); // find and element in an array
 for (let index = 0; index < guestDeletion.length; index++) { // iterate through the guest Deletion list
-    let gName = guestList.find((element) => element === guestDeletion[index]); // check if the name of the guest to be deleted is in the main guest list
-    if (gName === "string") {
+    let gName = guestList.find((element) => element === guestDeletion[index]); // check if the name of the guest to be deleted is in the main guest list    
+    if (gName) {
+        gName = gName.toString();
+        //console.log(gName);
         let indexOfGname = guestList.indexOf(gName); // find index of the guest name
+        //console.log(indexOfGname);
         console.log(`Guest name ${guestDeletion[index]} is in Guest List`); // display the name of the guest to be deleted is in guest list
-        guestList = guestList.splice(indexOfGname, 1);
+        let newGuestList = guestList.splice(indexOfGname, 1);
+        //console.log(newGuestList);
         console.log(`The guest name ${guestDeletion[index]} deleted from Guest list`);
     }
     else {
-        console.log(`Guest name ${guestDeletion[index]} is in Guest List`);
+        console.log(`Guest name ${guestDeletion[index]} is not in Guest List`);
     }
 }
