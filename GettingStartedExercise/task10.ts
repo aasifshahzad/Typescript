@@ -27,3 +27,5 @@ console.log("Reverse Sorted Array");
 let doubleReverse:string[] = reverseSortedPlacesToVisit.sort();
 console.log("Double Reverse Sorted Array");
 console.log(doubleReverse);
+
+
