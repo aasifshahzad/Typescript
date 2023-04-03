@@ -1,4 +1,3 @@
-"use strict";
 /*Task 1
 Define 2 variables with values 11 and 2 and find the remaider and store it in variable "c" and print "c"*/
 // let a:number = 11;
@@ -179,3 +178,4 @@ bear.honey;
 // Can still be re-assigned with a string though
 //Type Assertions
 const myCanvas = document.getElementById("main_canvas");
+export {};

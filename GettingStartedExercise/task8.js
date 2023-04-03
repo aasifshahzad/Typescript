@@ -1,4 +1,3 @@
-"use strict";
 //Names: Store the names of a few of your friends in a array called names. Print each person’s name by accessing each element in the list, one at a time.
 let friendsName = ["kashif", "akhtar", "israr", "nasir"];
 for (let index = 0; index < friendsName.length; index++) {
@@ -15,3 +14,4 @@ for (let index = 0; index < transportMode.length; index++) {
     let print = `I would like to own a ${transportMode[index]}.`;
     console.log(print);
 }
+export {};

@@ -13,5 +13,40 @@ console.log(obj.cities[2]);
 console.log(obj.func())
 
 //They think of something you could store in a TypeScript Object. Write a program that creates Objects containing these items.
-// import {calculator} from "../calculator.js"
+
+import inquirer from 'inquirer';
+
+const questions = [
+  {
+    type: 'input',
+    name: 'name',
+    message: 'What is your name?'
+  },
+  {
+    type: 'list',
+    name: 'color',
+    message: 'What is your favorite color?',
+    choices: ['Red', 'Blue', 'Green']
+  },
+  {
+    type: 'confirm',
+    name: 'confirm',
+    message: 'Are you sure?'
+  }
+];
+
+inquirer.prompt(questions)
+  .then(answers => {
+    console.log('Answers:', answers);
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
+/*
+
+? What is your name? asif
+? What is your favorite color? Green
+? Are you sure? Yes
+Answers: { name: 'asif', color: 'Green', confirm: true }
+*/
 

@@ -1,4 +1,3 @@
-"use strict";
 // Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
 let pName = "asif SHAHZAD";
 console.log(pName.toLowerCase()); //string methods
@@ -24,3 +23,4 @@ function titlecase(text) {
 }
 var outputString = titlecase("i am READING book on CODING");
 console.log(outputString);
+export {};

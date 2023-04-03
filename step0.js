@@ -1,4 +1,3 @@
-"use strict";
 let firstName = "Muhammad Asif";
 let lastName = "Shahzad";
 console.log(firstName);
@@ -10,3 +9,4 @@ let secondName = "NAsir";
 console.log(secondName);
 let message = 'Hello World it  my first code for typescript';
 console.log(message);
+export {};

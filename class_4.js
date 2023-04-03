@@ -1,4 +1,3 @@
-"use strict";
 // Aero funcion
 // let calc = (num1 : number, num2 :number) => {
 //     console.log("Calculator Aero Function");
@@ -63,3 +62,4 @@ for (var i = 0; i < firstNames.length; i++) {
 }
 ;
 console.log(fullNames);
+export {};

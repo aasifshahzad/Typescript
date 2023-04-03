@@ -1,4 +1,3 @@
-"use strict";
 // 18. Seeing the World: Think of at least five places in the world you’d like to visit. 
 let placesToVisit = ["Madina Tyaaba", "Yinchuan", "Qahira", "Makkah Sharif", "Istambol", "Beging", "Jagrata", "Maldives"];
 // • Store the locations in a array. Make sure the array is not in alphabetical order. 
@@ -22,3 +21,4 @@ console.log("Reverse Sorted Array");
 let doubleReverse = reverseSortedPlacesToVisit.sort();
 console.log("Double Reverse Sorted Array");
 console.log(doubleReverse);
+export {};

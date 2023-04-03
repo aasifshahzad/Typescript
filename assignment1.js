@@ -1,6 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var prompt = require('prompt-sync')();
+export {};
 // // Function to take exam marks in English and Urdu
 // function takeInput() {
 //     let englishMarksString:string = prompt("Enter the English Marks: ");

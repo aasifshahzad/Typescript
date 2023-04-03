@@ -1,5 +1,4 @@
-"use strict";
-function calculator(num1, sign, num2) {
+export function calculator(num1, sign, num2) {
     //var ans:number
     if (sign == "-") {
         return (num1 - num2);
