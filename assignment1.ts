@@ -1,5 +1,5 @@
-// //  Task 1 reate a Program to calculate the student grades
-// Importing promot
+// //  Task 1 Create a Program to calculate the student grades
+// Importing prompt
 import  { Prompt } from 'prompt-sync';
 var prompt = require('prompt-sync')();
 
@@ -42,25 +42,25 @@ var prompt = require('prompt-sync')();
 //___________________________________________________________________________________
 
 // Task 2 Create an array manipulation program
-// var fruits:string[] = ["apple", "mango", "banana", "straberry", "orange", "cherry"]
+// var fruits:string[] = ["apple", "mango", "banana", "strawberry", "orange", "cherry"]
 
 // console.log(fruits);
 // fruits.push("pineapple")  // Append a string at the end of array
 // fruits.unshift("date")       // Prepend a string at the start of array
-// fruits.splice(2,1,"coconut")   //[ 'apple', 'mango', 'coconut', 'straberry', 'orange', 'cherry' ]
+// fruits.splice(2,1,"coconut")   //[ 'apple', 'mango', 'coconut', 'strawberry', 'orange', 'cherry' ]
 // console.log(fruits);
 //Results
 // C:\Users\asif1\Documents\GitHub\Typescript>node assignment1.js
-// [ 'apple', 'mango', 'banana', 'straberry', 'orange', 'cherry' ]
-// [  'apple',  'mango', 'banana',  'straberry', 'orange',  'cherry',  'pineapple' ]
+// [ 'apple', 'mango', 'banana', 'strawberry', 'orange', 'cherry' ]
+// [  'apple',  'mango', 'banana',  'strawberry', 'orange',  'cherry',  'pineapple' ]
 
 // C:\Users\asif1\Documents\GitHub\Typescript>node assignment1.js
-// [ 'apple', 'mango', 'banana', 'straberry', 'orange', 'cherry' ]
-// [ 'date', 'apple', 'mango', 'banana', 'straberry', 'orange', 'cherry' ]
+// [ 'apple', 'mango', 'banana', 'strawberry', 'orange', 'cherry' ]
+// [ 'date', 'apple', 'mango', 'banana', 'strawberry', 'orange', 'cherry' ]
 
 // C:\Users\asif1\Documents\GitHub\Typescript>node assignment1.js
-// [ 'apple', 'mango', 'banana', 'straberry', 'orange', 'cherry' ]
-// [ 'apple', 'mango', 'coconut', 'straberry', 'orange', 'cherry' ]
+// [ 'apple', 'mango', 'banana', 'strawberry', 'orange', 'cherry' ]
+// [ 'apple', 'mango', 'coconut', 'strawberry', 'orange', 'cherry' ]
 
 //___________________________________________________________________________________
 
@@ -77,7 +77,7 @@ var prompt = require('prompt-sync')();
 //     return [productPrice,productDiscount]
 // }
 
-// // function to calulate the discount amount and other information
+// // function to calculate the discount amount and other information
 // function discountCalculator(){
 //     let discountAmount:number = info[0]*(info[1]/100);
 //     let finalAmountPayable:number = info[0]- discountAmount;
@@ -86,7 +86,7 @@ var prompt = require('prompt-sync')();
 //         console.log("Discount Percentage is invalid");        
 //     } else {
 //         console.log(   `
-//                     Product Origional Price: ${info[0]}
+//                     Product Original Price: ${info[0]}
 //                     Product Discount Percentage: ${info[1]}
 //                     Product Discount Amount: ${discountAmount}
 //                     Product Final Payable Amount: ${finalAmountPayable}
